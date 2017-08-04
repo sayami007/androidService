@@ -22,6 +22,9 @@
         <service android:name=".service.MyBoundService" />
 
         <activity android:name=".activity.SecondActivity" />
+
+        <activity android:name=".activity.MyMessagnerActivity"/>
+        <service android:name=".service.MyMessengerService" android:process=":my_own_process"
     </application>
 
 </manifest>

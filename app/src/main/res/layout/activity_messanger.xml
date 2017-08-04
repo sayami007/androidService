@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etNumOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etNumTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="performAddOperation"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btnBind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bind"
+        android:onClick="bindService" />
+
+    <Button
+        android:id="@+id/btnUnbind"
+        android:onClick="unbindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unbind" />
+
+    <TextView
+        android:id="@+id/txvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

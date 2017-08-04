@@ -37,7 +37,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="secondActivity"
-        android:text="Start Intent Service" />
+        android:text="Second BOund Service" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myMessagnerActivity"
+        android:text="Messenger" />
 
 
     <TextView

@@ -26,8 +26,6 @@ class MyStartedService : Service() {
         var intent: Intent = Intent("action.service.to.activity")
         intent.putExtra("key","value")
         sendBroadcast(intent)
-
-
         return START_STICKY
     }
 }

@@ -83,6 +83,10 @@ class MainActivityClass : AppCompatActivity() {
         startActivity(Intent(this, SecondActivity::class.java))
     }
 
+    fun myMessagnerActivity(view: View) {
+        startActivity(Intent(this, MyMessagnerActivity::class.java))
+    }
+
     class MyResultReceiver : ResultReceiver {
 
 
