@@ -9,6 +9,7 @@ import android.os.ResultReceiver;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
+import android.view.View;
 import android.widget.TextView;
 
 import com.a3callistos.service1.R;
@@ -31,7 +32,9 @@ class Trial extends AppCompatActivity {
     BroadcastReceiver receiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-
+            int a = 10;
+            float b = (float) a;
         }
     };
+
 }

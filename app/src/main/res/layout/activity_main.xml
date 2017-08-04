@@ -33,6 +33,13 @@
         android:text="Start Intent Service" />
 
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="secondActivity"
+        android:text="Start Intent Service" />
+
+
     <TextView
         android:id="@+id/tv_intent_service"
         android:layout_width="match_parent"

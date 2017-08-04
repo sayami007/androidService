@@ -78,6 +78,11 @@ class MainActivityClass : AppCompatActivity() {
         }
     }
 
+
+    fun secondActivity(view: View) {
+        startActivity(Intent(this, SecondActivity::class.java))
+    }
+
     class MyResultReceiver : ResultReceiver {
 
 
